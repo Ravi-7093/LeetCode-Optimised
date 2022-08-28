@@ -5,7 +5,7 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        nums.sort() #sort the numbers
+        nums.sort() #sort the numbers in the list
         i = 0
         while i < len(nums) and nums[i] < 0 and k > 0:#check for len(nums) and nums[i]<0
             k -= 1#reduce the k vlaue by one 
